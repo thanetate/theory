@@ -5,10 +5,14 @@ import { PromoBar } from "../../components/PromoBar/PromoBar";
 import { sessionIdAtom } from "../../atoms/userAtom";
 import { fetchCartDetailsAtom } from "../../atoms/cartAtom";
 import { useEffect } from "react";
+import { useAtom } from "jotai";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import axios from "axios";
-import { useAtom } from "jotai";
+import {
+	handleRemoveFromCart,
+	handleUpdateQuantity,
+	handleCheckout,
+} from "../../services/cart.service";
 
 export function CartPage() {
 	const [sessionId] = useAtom(sessionIdAtom);
@@ -23,79 +27,10 @@ export function CartPage() {
 		navigate("/collections");
 	};
 
-	const handleRemoveFromCart = async (productId: number) => {
-		try {
-			const response = await fetch(
-				`http://localhost:5255/user/${sessionId}/cart/${productId}`,
-				{
-					method: "DELETE",
-					headers: {
-						"Content-Type": "application/json",
-					},
-				}
-			);
-
-			if (!response.ok) {
-				throw new Error("Failed to remove product from cart");
-			}
-			toast.success("Removed from cart");
-			fetchCartDetails();
-		} catch (error) {
-			toast.error("Failed to remove product from cart");
-			console.error("Failed to remove product from cart:", error);
-		}
-	};
-
-	const handleUpdateQuantity = async (
-		productId: number,
-		newQuantity: number
-	) => {
-		try {
-			const response = await fetch(
-				`http://localhost:5255/user/${sessionId}/cart/${productId}/quantity/${newQuantity}`,
-				{
-					method: "PATCH",
-					headers: {
-						"Content-Type": "application/json",
-					},
-				}
-			);
-
-			if (!response.ok) {
-				throw new Error("Failed to update product quantity");
-			}
-
-			toast.success("Cart updated");
-			fetchCartDetails(); // refresh cart state
-		} catch (error) {
-			toast.error("Failed to update cart");
-			console.error("Update cart error:", error);
-		}
-	};
-
-	const handleCheckout = async (event: React.FormEvent) => {
-		event.preventDefault();
-		try {
-			const response = await axios.post(
-				"http://localhost:5255/create-checkout-session",
-				{ cart: cartDetails },
-				{
-					headers: {
-						"Content-Type": "application/json",
-					},
-				}
-			);
-
-			// redirect to stripe checkout page
-			if (response.data.url) {
-				window.location.href = response.data.url;
-			} else {
-				console.error("Checkout session URL not found in response.");
-			}
-		} catch (error) {
-			console.error("Error creating checkout session:", error);
-		}
-	};
+	if (!sessionId) {
+		toast.error("You must be logged in to perform this action.");
+		return;
+	}
 
 	return (
 		<>
@@ -119,8 +54,10 @@ export function CartPage() {
 												<button
 													onClick={() =>
 														handleUpdateQuantity(
+															sessionId,
 															item.id,
-															Math.max(1, item.quantity - 1)
+															Math.max(1, item.quantity - 1),
+															fetchCartDetails
 														)
 													}
 												>
@@ -134,7 +71,12 @@ export function CartPage() {
 												/>
 												<button
 													onClick={() =>
-														handleUpdateQuantity(item.id, item.quantity + 1)
+														handleUpdateQuantity(
+															sessionId,
+															item.id,
+															item.quantity + 1,
+															fetchCartDetails
+														)
 													}
 												>
 													+
@@ -143,7 +85,13 @@ export function CartPage() {
 										</div>
 
 										<button
-											onClick={() => handleRemoveFromCart(item.id)}
+											onClick={() =>
+												handleRemoveFromCart(
+													sessionId,
+													item.id,
+													fetchCartDetails
+												)
+											}
 											className="remove-btn"
 										>
 											Remove Item
@@ -153,7 +101,7 @@ export function CartPage() {
 							))}
 						</ul>
 						<div className="checkout-container">
-							<form onSubmit={handleCheckout}>
+							<form onSubmit={(e) => handleCheckout(e, cartDetails)}>
 								<button className="checkout" type="submit">
 									Checkout
 								</button>
