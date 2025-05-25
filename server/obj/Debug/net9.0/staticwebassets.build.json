@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DFJSt+cIzzSVcGt804Ak56ylpybFWNFwuR2Qlx8Rn8o=",
+  "Hash": "hFEr/K//DVMA/X9qvg7iCTeCg8T/mPcJ/WnLVppj6YA=",
   "Source": "server",
   "BasePath": "_content/server",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "server/wwwroot",
       "Source": "server",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/78ivns09oz-69kjnsiwqx.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/78ivns09oz-69kjnsiwqx.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "vite#[.{fingerprint=69kjnsiwqx}]?.svg.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/vite.svg",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/vite.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "hm65djmsrs",
       "Integrity": "yWlQkwTAgXoqC96r+Qj4NzYKqSD17ZhnVXCy8hnGHHk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/vite.svg"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/vite.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/bvx6vt6b61-mri1s7pb04.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/bvx6vt6b61-mri1s7pb04.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "icons/rightarrow#[.{fingerprint=mri1s7pb04}]?.svg.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/rightarrow.svg",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/rightarrow.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "ma72t1vb1f",
       "Integrity": "biLAjeagZnVMP8tKZ/7dHiDSMqZglhP/p+NnpIP9UbY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/rightarrow.svg"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/rightarrow.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/d62ap6qrji-ixw2yoixs8.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/d62ap6qrji-ixw2yoixs8.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "icons/hamburger#[.{fingerprint=ixw2yoixs8}]?.svg.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/hamburger.svg",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/hamburger.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "59um3l52dv",
       "Integrity": "V5YiimcUP1jhhzlSENK9aT05Wgqb37BJaTKHWOVrxg4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/hamburger.svg"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/hamburger.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/dhtx5wmbr0-9srf4khzjj.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/dhtx5wmbr0-9srf4khzjj.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "icons/linkedin#[.{fingerprint=9srf4khzjj}]?.svg.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/linkedin.svg",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/linkedin.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "7iqedav1w9",
       "Integrity": "r0IHamTN6sw10cjDq5DkA2nSwkK3uwBL+jUs28DPnu4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/linkedin.svg"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/linkedin.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/ef3kfgv4th-93o34hv7qw.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/ef3kfgv4th-93o34hv7qw.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "assets/index-DxxjtocE#[.{fingerprint=93o34hv7qw}]?.js.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/index-DxxjtocE.js",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/index-DxxjtocE.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "axkposukkh",
       "Integrity": "0uHjZ8vmiAiViSie34ce8cyrFlfIRPj8wcH8mmHqPY8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/index-DxxjtocE.js"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/index-DxxjtocE.js"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/hflpgo3jhw-gippcuy942.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/hflpgo3jhw-gippcuy942.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "index#[.{fingerprint=gippcuy942}]?.html.gz",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/index.html",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "c3wk1vuhms",
       "Integrity": "iINxR9zCzi6W04gyKkFzpbm2JE9idyFSLebZap/RQqw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/index.html"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/index.html"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/hxqexa16vw-wfj5s1x547.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/hxqexa16vw-wfj5s1x547.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "icons/cart#[.{fingerprint=wfj5s1x547}]?.svg.gz",
       "AssetKind": "All",
@@ -154,20 +154,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/cart.svg",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/cart.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "wyl33cirdl",
       "Integrity": "+ASwPFsn0fg9OnaXgUF9j45iAKqixxzTClZJT94HY5g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/cart.svg"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/cart.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/kni10n16kz-ihywopaqtv.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/kni10n16kz-ihywopaqtv.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "assets/browser-4PE-i8Mq#[.{fingerprint=ihywopaqtv}]?.js.gz",
       "AssetKind": "All",
@@ -175,20 +175,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/browser-4PE-i8Mq.js",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/browser-4PE-i8Mq.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "wwqw9k48ef",
       "Integrity": "QAlL2RwPJ/xuNWr5RxiX7Jez5YEmHGGhWm6Q6o6sfAo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/browser-4PE-i8Mq.js"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/browser-4PE-i8Mq.js"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/ks6lrrep39-09crdraxxz.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/ks6lrrep39-09crdraxxz.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "icons/instagram#[.{fingerprint=09crdraxxz}]?.svg.gz",
       "AssetKind": "All",
@@ -196,20 +196,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/instagram.svg",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/instagram.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "2iry9wyl7n",
       "Integrity": "ukhSwZ10+I5XOWr9XKWm/SR1sSe3EZyXVN1/HJ33PYY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/instagram.svg"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/instagram.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/t9op571jas-99olruv0s2.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/t9op571jas-99olruv0s2.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "icons/circle#[.{fingerprint=99olruv0s2}]?.svg.gz",
       "AssetKind": "All",
@@ -217,20 +217,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/circle.svg",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/circle.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "wwqop9v5ov",
       "Integrity": "QEvgVk5FWpkbEPPqy++OVkcukofpJ4mj4SaBTZ6InII=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/circle.svg"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/circle.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/txl1vvqtn2-yj7lzv7blh.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/txl1vvqtn2-yj7lzv7blh.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "assets/index-ZMk4oHDS#[.{fingerprint=yj7lzv7blh}]?.css.gz",
       "AssetKind": "All",
@@ -238,20 +238,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/index-ZMk4oHDS.css",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/index-ZMk4oHDS.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "pch0xcelpz",
       "Integrity": "2ehglkGiS0Nrl+W8NKfohspAocuwHXuUMnxjoJu5MIM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/index-ZMk4oHDS.css"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/index-ZMk4oHDS.css"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/uqef6uoo4m-acgtipgbda.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/uqef6uoo4m-acgtipgbda.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "icons/leftarrow#[.{fingerprint=acgtipgbda}]?.svg.gz",
       "AssetKind": "All",
@@ -259,20 +259,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/leftarrow.svg",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/leftarrow.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "rzc3j8m6sn",
       "Integrity": "eajoQGlCeIaSKcWrmbBdjSb42SZ+nO/ONXFv7spATHs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/leftarrow.svg"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/leftarrow.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/vahf7lmhpg-orkblwnjqa.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/vahf7lmhpg-orkblwnjqa.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "icons/github#[.{fingerprint=orkblwnjqa}]?.svg.gz",
       "AssetKind": "All",
@@ -280,20 +280,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/github.svg",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/github.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "1sf8kq9ut3",
       "Integrity": "H7JIcCSn7lreuL0Jy1WTzgeIz9oUuCJ+8uO81msusKI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/github.svg"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/github.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/y3rdd624fy-esctadgjiq.gz",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/y3rdd624fy-esctadgjiq.gz",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/server",
       "RelativePath": "icons/user#[.{fingerprint=esctadgjiq}]?.svg.gz",
       "AssetKind": "All",
@@ -301,20 +301,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/user.svg",
+      "RelatedAsset": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/user.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "hwyg6wuzv0",
       "Integrity": "TwUQgkrRuIvnKJ6JKrKN+/cMCtkoxHLfS8r/vOrpv2o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/user.svg"
+      "OriginalItemSpec": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/user.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/browser-4PE-i8Mq.js",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/browser-4PE-i8Mq.js",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "assets/browser-4PE-i8Mq#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot/assets/browser-4PE-i8Mq.js"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/index-DxxjtocE.js",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/index-DxxjtocE.js",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "assets/index-DxxjtocE#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot/assets/index-DxxjtocE.js"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/index-ZMk4oHDS.css",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/index-ZMk4oHDS.css",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "assets/index-ZMk4oHDS#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot/assets/index-ZMk4oHDS.css"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel1.png",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel1.png",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "Carousel1#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot/Carousel1.png"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel2.png",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel2.png",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "Carousel2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot/Carousel2.png"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel4.png",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel4.png",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "Carousel4#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot/Carousel4.png"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel5.png",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel5.png",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "Carousel5#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot/Carousel5.png"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel6.png",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel6.png",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "Carousel6#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot/Carousel6.png"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/example-product.png",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/example-product.png",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "example-product#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot/example-product.png"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/cart.svg",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/cart.svg",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "icons/cart#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot/icons/cart.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/circle.svg",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/circle.svg",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "icons/circle#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot/icons/circle.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/github.svg",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/github.svg",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "icons/github#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot/icons/github.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/hamburger.svg",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/hamburger.svg",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "icons/hamburger#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot/icons/hamburger.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/instagram.svg",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/instagram.svg",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "icons/instagram#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot/icons/instagram.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/leftarrow.svg",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/leftarrow.svg",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "icons/leftarrow#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot/icons/leftarrow.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/linkedin.svg",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/linkedin.svg",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "icons/linkedin#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot/icons/linkedin.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/rightarrow.svg",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/rightarrow.svg",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "icons/rightarrow#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot/icons/rightarrow.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/user.svg",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/user.svg",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "icons/user#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot/icons/user.svg"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/index.html",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/index.html",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/T.png",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/T.png",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "T#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot/T.png"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Theory.png",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Theory.png",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "Theory#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot/Theory.png"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Theory2.png",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Theory2.png",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "Theory2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot/Theory2.png"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/TheoryLogo2.png",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/TheoryLogo2.png",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "TheoryLogo2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot/TheoryLogo2.png"
     },
     {
-      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/vite.svg",
+      "Identity": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/vite.svg",
       "SourceId": "server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/",
+      "ContentRoot": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/",
       "BasePath": "_content/server",
       "RelativePath": "vite#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -818,7 +818,7 @@
   "Endpoints": [
     {
       "Route": "assets/browser-4PE-i8Mq.ihywopaqtv.js",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/kni10n16kz-ihywopaqtv.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/kni10n16kz-ihywopaqtv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -841,7 +841,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -881,7 +881,7 @@
     },
     {
       "Route": "assets/browser-4PE-i8Mq.ihywopaqtv.js",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/browser-4PE-i8Mq.js",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/browser-4PE-i8Mq.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -902,7 +902,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -926,7 +926,7 @@
     },
     {
       "Route": "assets/browser-4PE-i8Mq.ihywopaqtv.js.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/kni10n16kz-ihywopaqtv.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/kni10n16kz-ihywopaqtv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -947,7 +947,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -979,7 +979,7 @@
     },
     {
       "Route": "assets/browser-4PE-i8Mq.js",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/kni10n16kz-ihywopaqtv.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/kni10n16kz-ihywopaqtv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1002,7 +1002,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1034,7 +1034,7 @@
     },
     {
       "Route": "assets/browser-4PE-i8Mq.js",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/browser-4PE-i8Mq.js",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/browser-4PE-i8Mq.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1055,7 +1055,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1071,7 +1071,7 @@
     },
     {
       "Route": "assets/browser-4PE-i8Mq.js.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/kni10n16kz-ihywopaqtv.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/kni10n16kz-ihywopaqtv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1092,7 +1092,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1116,7 +1116,7 @@
     },
     {
       "Route": "assets/index-DxxjtocE.93o34hv7qw.js",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/ef3kfgv4th-93o34hv7qw.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/ef3kfgv4th-93o34hv7qw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1139,7 +1139,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1179,7 +1179,7 @@
     },
     {
       "Route": "assets/index-DxxjtocE.93o34hv7qw.js",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/index-DxxjtocE.js",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/index-DxxjtocE.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1200,7 +1200,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1224,7 +1224,7 @@
     },
     {
       "Route": "assets/index-DxxjtocE.93o34hv7qw.js.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/ef3kfgv4th-93o34hv7qw.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/ef3kfgv4th-93o34hv7qw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1245,7 +1245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1277,7 +1277,7 @@
     },
     {
       "Route": "assets/index-DxxjtocE.js",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/ef3kfgv4th-93o34hv7qw.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/ef3kfgv4th-93o34hv7qw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1300,7 +1300,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1332,7 +1332,7 @@
     },
     {
       "Route": "assets/index-DxxjtocE.js",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/index-DxxjtocE.js",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/index-DxxjtocE.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1353,7 +1353,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1369,7 +1369,7 @@
     },
     {
       "Route": "assets/index-DxxjtocE.js.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/ef3kfgv4th-93o34hv7qw.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/ef3kfgv4th-93o34hv7qw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1390,7 +1390,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1414,7 +1414,7 @@
     },
     {
       "Route": "assets/index-ZMk4oHDS.css",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/txl1vvqtn2-yj7lzv7blh.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/txl1vvqtn2-yj7lzv7blh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1437,7 +1437,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1469,7 +1469,7 @@
     },
     {
       "Route": "assets/index-ZMk4oHDS.css",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/index-ZMk4oHDS.css",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/index-ZMk4oHDS.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1490,7 +1490,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1506,7 +1506,7 @@
     },
     {
       "Route": "assets/index-ZMk4oHDS.css.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/txl1vvqtn2-yj7lzv7blh.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/txl1vvqtn2-yj7lzv7blh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1527,7 +1527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1551,7 +1551,7 @@
     },
     {
       "Route": "assets/index-ZMk4oHDS.yj7lzv7blh.css",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/txl1vvqtn2-yj7lzv7blh.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/txl1vvqtn2-yj7lzv7blh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1574,7 +1574,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1614,7 +1614,7 @@
     },
     {
       "Route": "assets/index-ZMk4oHDS.yj7lzv7blh.css",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/assets/index-ZMk4oHDS.css",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/assets/index-ZMk4oHDS.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1635,7 +1635,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1659,7 +1659,7 @@
     },
     {
       "Route": "assets/index-ZMk4oHDS.yj7lzv7blh.css.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/txl1vvqtn2-yj7lzv7blh.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/txl1vvqtn2-yj7lzv7blh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1680,7 +1680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1712,7 +1712,7 @@
     },
     {
       "Route": "Carousel1.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel1.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1733,7 +1733,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1749,7 +1749,7 @@
     },
     {
       "Route": "Carousel1.tsvu0o1qnd.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel1.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1770,7 +1770,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1794,7 +1794,7 @@
     },
     {
       "Route": "Carousel2.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel2.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1815,7 +1815,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1831,7 +1831,7 @@
     },
     {
       "Route": "Carousel2.u7gnjwmhz1.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel2.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1852,7 +1852,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1876,7 +1876,7 @@
     },
     {
       "Route": "Carousel4.pm71golur2.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel4.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1897,7 +1897,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1921,7 +1921,7 @@
     },
     {
       "Route": "Carousel4.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel4.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1942,7 +1942,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1958,7 +1958,7 @@
     },
     {
       "Route": "Carousel5.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel5.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel5.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1979,7 +1979,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1995,7 +1995,7 @@
     },
     {
       "Route": "Carousel5.v4fpez0hxd.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel5.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel5.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2016,7 +2016,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2040,7 +2040,7 @@
     },
     {
       "Route": "Carousel6.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel6.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel6.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2061,7 +2061,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2077,7 +2077,7 @@
     },
     {
       "Route": "Carousel6.t06zrdkwuo.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Carousel6.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Carousel6.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2098,7 +2098,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2122,7 +2122,7 @@
     },
     {
       "Route": "example-product.nazo0019ob.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/example-product.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/example-product.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2143,7 +2143,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2167,7 +2167,7 @@
     },
     {
       "Route": "example-product.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/example-product.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/example-product.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2188,7 +2188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2204,7 +2204,7 @@
     },
     {
       "Route": "icons/cart.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/hxqexa16vw-wfj5s1x547.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/hxqexa16vw-wfj5s1x547.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2227,7 +2227,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2259,7 +2259,7 @@
     },
     {
       "Route": "icons/cart.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/cart.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/cart.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2280,7 +2280,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2296,7 +2296,7 @@
     },
     {
       "Route": "icons/cart.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/hxqexa16vw-wfj5s1x547.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/hxqexa16vw-wfj5s1x547.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2317,7 +2317,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2341,7 +2341,7 @@
     },
     {
       "Route": "icons/cart.wfj5s1x547.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/hxqexa16vw-wfj5s1x547.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/hxqexa16vw-wfj5s1x547.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2364,7 +2364,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2404,7 +2404,7 @@
     },
     {
       "Route": "icons/cart.wfj5s1x547.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/cart.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/cart.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2425,7 +2425,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2449,7 +2449,7 @@
     },
     {
       "Route": "icons/cart.wfj5s1x547.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/hxqexa16vw-wfj5s1x547.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/hxqexa16vw-wfj5s1x547.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2470,7 +2470,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2502,7 +2502,7 @@
     },
     {
       "Route": "icons/circle.99olruv0s2.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/t9op571jas-99olruv0s2.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/t9op571jas-99olruv0s2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2525,7 +2525,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2565,7 +2565,7 @@
     },
     {
       "Route": "icons/circle.99olruv0s2.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/circle.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/circle.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2586,7 +2586,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2610,7 +2610,7 @@
     },
     {
       "Route": "icons/circle.99olruv0s2.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/t9op571jas-99olruv0s2.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/t9op571jas-99olruv0s2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2631,7 +2631,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2663,7 +2663,7 @@
     },
     {
       "Route": "icons/circle.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/t9op571jas-99olruv0s2.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/t9op571jas-99olruv0s2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2686,7 +2686,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2718,7 +2718,7 @@
     },
     {
       "Route": "icons/circle.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/circle.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/circle.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2739,7 +2739,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2755,7 +2755,7 @@
     },
     {
       "Route": "icons/circle.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/t9op571jas-99olruv0s2.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/t9op571jas-99olruv0s2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2776,7 +2776,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2800,7 +2800,7 @@
     },
     {
       "Route": "icons/github.orkblwnjqa.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/vahf7lmhpg-orkblwnjqa.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/vahf7lmhpg-orkblwnjqa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2823,7 +2823,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2863,7 +2863,7 @@
     },
     {
       "Route": "icons/github.orkblwnjqa.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/github.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/github.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2884,7 +2884,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2908,7 +2908,7 @@
     },
     {
       "Route": "icons/github.orkblwnjqa.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/vahf7lmhpg-orkblwnjqa.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/vahf7lmhpg-orkblwnjqa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2929,7 +2929,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2961,7 +2961,7 @@
     },
     {
       "Route": "icons/github.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/vahf7lmhpg-orkblwnjqa.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/vahf7lmhpg-orkblwnjqa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2984,7 +2984,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3016,7 +3016,7 @@
     },
     {
       "Route": "icons/github.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/github.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/github.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3037,7 +3037,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3053,7 +3053,7 @@
     },
     {
       "Route": "icons/github.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/vahf7lmhpg-orkblwnjqa.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/vahf7lmhpg-orkblwnjqa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3074,7 +3074,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3098,7 +3098,7 @@
     },
     {
       "Route": "icons/hamburger.ixw2yoixs8.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/d62ap6qrji-ixw2yoixs8.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/d62ap6qrji-ixw2yoixs8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3121,7 +3121,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3161,7 +3161,7 @@
     },
     {
       "Route": "icons/hamburger.ixw2yoixs8.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/hamburger.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/hamburger.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3182,7 +3182,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3206,7 +3206,7 @@
     },
     {
       "Route": "icons/hamburger.ixw2yoixs8.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/d62ap6qrji-ixw2yoixs8.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/d62ap6qrji-ixw2yoixs8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3227,7 +3227,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3259,7 +3259,7 @@
     },
     {
       "Route": "icons/hamburger.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/d62ap6qrji-ixw2yoixs8.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/d62ap6qrji-ixw2yoixs8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3282,7 +3282,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3314,7 +3314,7 @@
     },
     {
       "Route": "icons/hamburger.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/hamburger.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/hamburger.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3335,7 +3335,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3351,7 +3351,7 @@
     },
     {
       "Route": "icons/hamburger.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/d62ap6qrji-ixw2yoixs8.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/d62ap6qrji-ixw2yoixs8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3372,7 +3372,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3396,7 +3396,7 @@
     },
     {
       "Route": "icons/instagram.09crdraxxz.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/ks6lrrep39-09crdraxxz.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/ks6lrrep39-09crdraxxz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3419,7 +3419,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3459,7 +3459,7 @@
     },
     {
       "Route": "icons/instagram.09crdraxxz.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/instagram.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/instagram.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3480,7 +3480,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3504,7 +3504,7 @@
     },
     {
       "Route": "icons/instagram.09crdraxxz.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/ks6lrrep39-09crdraxxz.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/ks6lrrep39-09crdraxxz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3525,7 +3525,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3557,7 +3557,7 @@
     },
     {
       "Route": "icons/instagram.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/ks6lrrep39-09crdraxxz.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/ks6lrrep39-09crdraxxz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3580,7 +3580,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3612,7 +3612,7 @@
     },
     {
       "Route": "icons/instagram.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/instagram.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/instagram.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3633,7 +3633,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3649,7 +3649,7 @@
     },
     {
       "Route": "icons/instagram.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/ks6lrrep39-09crdraxxz.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/ks6lrrep39-09crdraxxz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3670,7 +3670,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3694,7 +3694,7 @@
     },
     {
       "Route": "icons/leftarrow.acgtipgbda.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/uqef6uoo4m-acgtipgbda.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/uqef6uoo4m-acgtipgbda.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3717,7 +3717,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3757,7 +3757,7 @@
     },
     {
       "Route": "icons/leftarrow.acgtipgbda.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/leftarrow.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/leftarrow.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3778,7 +3778,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3802,7 +3802,7 @@
     },
     {
       "Route": "icons/leftarrow.acgtipgbda.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/uqef6uoo4m-acgtipgbda.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/uqef6uoo4m-acgtipgbda.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3823,7 +3823,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3855,7 +3855,7 @@
     },
     {
       "Route": "icons/leftarrow.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/uqef6uoo4m-acgtipgbda.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/uqef6uoo4m-acgtipgbda.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3878,7 +3878,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3910,7 +3910,7 @@
     },
     {
       "Route": "icons/leftarrow.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/leftarrow.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/leftarrow.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3931,7 +3931,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3947,7 +3947,7 @@
     },
     {
       "Route": "icons/leftarrow.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/uqef6uoo4m-acgtipgbda.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/uqef6uoo4m-acgtipgbda.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3968,7 +3968,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3992,7 +3992,7 @@
     },
     {
       "Route": "icons/linkedin.9srf4khzjj.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/dhtx5wmbr0-9srf4khzjj.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/dhtx5wmbr0-9srf4khzjj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4015,7 +4015,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4055,7 +4055,7 @@
     },
     {
       "Route": "icons/linkedin.9srf4khzjj.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/linkedin.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/linkedin.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4076,7 +4076,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4100,7 +4100,7 @@
     },
     {
       "Route": "icons/linkedin.9srf4khzjj.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/dhtx5wmbr0-9srf4khzjj.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/dhtx5wmbr0-9srf4khzjj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4121,7 +4121,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4153,7 +4153,7 @@
     },
     {
       "Route": "icons/linkedin.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/dhtx5wmbr0-9srf4khzjj.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/dhtx5wmbr0-9srf4khzjj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4176,7 +4176,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4208,7 +4208,7 @@
     },
     {
       "Route": "icons/linkedin.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/linkedin.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/linkedin.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4229,7 +4229,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4245,7 +4245,7 @@
     },
     {
       "Route": "icons/linkedin.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/dhtx5wmbr0-9srf4khzjj.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/dhtx5wmbr0-9srf4khzjj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4266,7 +4266,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4290,7 +4290,7 @@
     },
     {
       "Route": "icons/rightarrow.mri1s7pb04.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/bvx6vt6b61-mri1s7pb04.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/bvx6vt6b61-mri1s7pb04.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4313,7 +4313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4353,7 +4353,7 @@
     },
     {
       "Route": "icons/rightarrow.mri1s7pb04.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/rightarrow.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/rightarrow.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4374,7 +4374,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4398,7 +4398,7 @@
     },
     {
       "Route": "icons/rightarrow.mri1s7pb04.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/bvx6vt6b61-mri1s7pb04.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/bvx6vt6b61-mri1s7pb04.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4419,7 +4419,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4451,7 +4451,7 @@
     },
     {
       "Route": "icons/rightarrow.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/bvx6vt6b61-mri1s7pb04.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/bvx6vt6b61-mri1s7pb04.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4474,7 +4474,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4506,7 +4506,7 @@
     },
     {
       "Route": "icons/rightarrow.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/rightarrow.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/rightarrow.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4527,7 +4527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4543,7 +4543,7 @@
     },
     {
       "Route": "icons/rightarrow.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/bvx6vt6b61-mri1s7pb04.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/bvx6vt6b61-mri1s7pb04.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4564,7 +4564,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4588,7 +4588,7 @@
     },
     {
       "Route": "icons/user.esctadgjiq.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/y3rdd624fy-esctadgjiq.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/y3rdd624fy-esctadgjiq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4611,7 +4611,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4651,7 +4651,7 @@
     },
     {
       "Route": "icons/user.esctadgjiq.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/user.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/user.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4672,7 +4672,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4696,7 +4696,7 @@
     },
     {
       "Route": "icons/user.esctadgjiq.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/y3rdd624fy-esctadgjiq.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/y3rdd624fy-esctadgjiq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4717,7 +4717,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4749,7 +4749,7 @@
     },
     {
       "Route": "icons/user.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/y3rdd624fy-esctadgjiq.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/y3rdd624fy-esctadgjiq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4772,7 +4772,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4804,7 +4804,7 @@
     },
     {
       "Route": "icons/user.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/icons/user.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/icons/user.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4825,7 +4825,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4841,7 +4841,7 @@
     },
     {
       "Route": "icons/user.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/y3rdd624fy-esctadgjiq.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/y3rdd624fy-esctadgjiq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4862,7 +4862,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4886,7 +4886,7 @@
     },
     {
       "Route": "index.gippcuy942.html",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/hflpgo3jhw-gippcuy942.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/hflpgo3jhw-gippcuy942.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4909,7 +4909,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4949,7 +4949,7 @@
     },
     {
       "Route": "index.gippcuy942.html",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/index.html",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4970,7 +4970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4994,7 +4994,7 @@
     },
     {
       "Route": "index.gippcuy942.html.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/hflpgo3jhw-gippcuy942.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/hflpgo3jhw-gippcuy942.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5015,7 +5015,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5047,7 +5047,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/hflpgo3jhw-gippcuy942.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/hflpgo3jhw-gippcuy942.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -5070,7 +5070,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5102,7 +5102,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/index.html",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5123,7 +5123,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5139,7 +5139,7 @@
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/hflpgo3jhw-gippcuy942.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/hflpgo3jhw-gippcuy942.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5160,7 +5160,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:43:37 GMT"
+          "Value": "Sun, 25 May 2025 18:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5184,7 +5184,7 @@
     },
     {
       "Route": "T.lq9vnp4cij.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/T.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/T.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5205,7 +5205,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5229,7 +5229,7 @@
     },
     {
       "Route": "T.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/T.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/T.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5250,7 +5250,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5266,7 +5266,7 @@
     },
     {
       "Route": "Theory.bcoe3ywzxd.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Theory.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Theory.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5287,7 +5287,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5311,7 +5311,7 @@
     },
     {
       "Route": "Theory.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Theory.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Theory.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5332,7 +5332,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5348,7 +5348,7 @@
     },
     {
       "Route": "Theory2.ensa88a2kr.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Theory2.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Theory2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5369,7 +5369,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5393,7 +5393,7 @@
     },
     {
       "Route": "Theory2.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/Theory2.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/Theory2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5414,7 +5414,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5430,7 +5430,7 @@
     },
     {
       "Route": "TheoryLogo2.ensa88a2kr.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/TheoryLogo2.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/TheoryLogo2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5451,7 +5451,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5475,7 +5475,7 @@
     },
     {
       "Route": "TheoryLogo2.png",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/TheoryLogo2.png",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/TheoryLogo2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5496,7 +5496,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5512,7 +5512,7 @@
     },
     {
       "Route": "vite.69kjnsiwqx.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/78ivns09oz-69kjnsiwqx.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/78ivns09oz-69kjnsiwqx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -5535,7 +5535,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5575,7 +5575,7 @@
     },
     {
       "Route": "vite.69kjnsiwqx.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/vite.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/vite.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5596,7 +5596,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5620,7 +5620,7 @@
     },
     {
       "Route": "vite.69kjnsiwqx.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/78ivns09oz-69kjnsiwqx.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/78ivns09oz-69kjnsiwqx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5641,7 +5641,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5673,7 +5673,7 @@
     },
     {
       "Route": "vite.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/78ivns09oz-69kjnsiwqx.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/78ivns09oz-69kjnsiwqx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -5696,7 +5696,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5728,7 +5728,7 @@
     },
     {
       "Route": "vite.svg",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/wwwroot/vite.svg",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/wwwroot/vite.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5749,7 +5749,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5765,7 +5765,7 @@
     },
     {
       "Route": "vite.svg.gz",
-      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/Debug/net9.0/compressed/78ivns09oz-69kjnsiwqx.gz",
+      "AssetFile": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/Debug/net9.0/compressed/78ivns09oz-69kjnsiwqx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5786,7 +5786,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:07:14 GMT"
+          "Value": "Sun, 25 May 2025 18:35:27 GMT"
         },
         {
           "Name": "Cache-Control",

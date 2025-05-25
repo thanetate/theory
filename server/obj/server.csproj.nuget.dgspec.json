@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/server.csproj": {}
+    "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/server.csproj": {}
   },
   "projects": {
-    "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/server.csproj": {
+    "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/server.csproj",
+        "projectUniqueName": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/server.csproj",
         "projectName": "server",
-        "projectPath": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/server.csproj",
+        "projectPath": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/server.csproj",
         "packagesPath": "/Users/thanetate/.nuget/packages/",
-        "outputPath": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/obj/",
+        "outputPath": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/thanetate/.nuget/NuGet/NuGet.Config"

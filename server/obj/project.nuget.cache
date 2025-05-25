@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "shFOVw9cuak=",
+  "dgSpecHash": "nubrdP6qg2Q=",
   "success": true,
-  "projectFilePath": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-v.2/theory-v.2/server/server.csproj",
+  "projectFilePath": "/Users/thanetate/OneDrive/Desktop/Software Engineering/GitHub Projects/theory-refactor/Theory-v2/server/server.csproj",
   "expectedPackageFiles": [
     "/Users/thanetate/.nuget/packages/functions-csharp/1.3.2/functions-csharp.1.3.2.nupkg.sha512",
     "/Users/thanetate/.nuget/packages/gotrue-csharp/4.2.7/gotrue-csharp.4.2.7.nupkg.sha512",
