@@ -4,14 +4,13 @@ import { Footer } from "../../components/Footer/Footer";
 import { PromoBar } from "../../components/PromoBar/PromoBar";
 import { sessionIdAtom } from "../../atoms/userAtom";
 import { fetchCartDetailsAtom } from "../../atoms/cartAtom";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { useAtom } from "jotai";
 
 export function CartPage() {
-	const [, setQuantity] = useState(1);
 	const [sessionId] = useAtom(sessionIdAtom);
 	const [cartDetails, fetchCartDetails] = useAtom(fetchCartDetailsAtom);
 	const navigate = useNavigate();
@@ -19,11 +18,6 @@ export function CartPage() {
 	useEffect(() => {
 		fetchCartDetails();
 	}, [fetchCartDetails]);
-
-	// Todo: fix quantity issues
-	const handleQuantityChange = (amount: number) => {
-		setQuantity((prevQuantity) => Math.max(1, prevQuantity + amount));
-	};
 
 	const handleGoShopping = () => {
 		navigate("/collections");
@@ -49,6 +43,33 @@ export function CartPage() {
 		} catch (error) {
 			toast.error("Failed to remove product from cart");
 			console.error("Failed to remove product from cart:", error);
+		}
+	};
+
+	const handleUpdateQuantity = async (
+		productId: number,
+		newQuantity: number
+	) => {
+		try {
+			const response = await fetch(
+				`http://localhost:5255/user/${sessionId}/cart/${productId}/quantity/${newQuantity}`,
+				{
+					method: "PATCH",
+					headers: {
+						"Content-Type": "application/json",
+					},
+				}
+			);
+
+			if (!response.ok) {
+				throw new Error("Failed to update product quantity");
+			}
+
+			toast.success("Cart updated");
+			fetchCartDetails(); // refresh cart state
+		} catch (error) {
+			toast.error("Failed to update cart");
+			console.error("Update cart error:", error);
 		}
 	};
 
@@ -95,7 +116,14 @@ export function CartPage() {
 										<p className="item-size">Size: {item.size}</p>
 										<div className="quantity">
 											<div className="quantity-box">
-												<button onClick={() => handleQuantityChange(-1)}>
+												<button
+													onClick={() =>
+														handleUpdateQuantity(
+															item.id,
+															Math.max(1, item.quantity - 1)
+														)
+													}
+												>
 													-
 												</button>
 												<input
@@ -104,11 +132,16 @@ export function CartPage() {
 													readOnly
 													className="quantity-input"
 												/>
-												<button onClick={() => handleQuantityChange(1)}>
+												<button
+													onClick={() =>
+														handleUpdateQuantity(item.id, item.quantity + 1)
+													}
+												>
 													+
 												</button>
 											</div>
 										</div>
+
 										<button
 											onClick={() => handleRemoveFromCart(item.id)}
 											className="remove-btn"

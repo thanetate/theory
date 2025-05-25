@@ -1,6 +1,7 @@
 using Supabase.Tutorial.Contracts;
 using Supabase.Tutorial.Models;
 using Newtonsoft.Json.Linq;
+using Stripe;
 
 //Todo: move these to a model
 public class CartItem

@@ -35,7 +35,7 @@ Content-Type: application/json
 }
 
 ### change quantity in users cart
-PATCH http://localhost:5255/user/9846c653-c02b-4e81-b28c-7564d70dd377/cart/12831/quantity/4
+PATCH http://localhost:5255/user/9846c653-c02b-4e81-b28c-7564d70dd377/cart/12831/quantity/6
 Content-Type: application/json
 
 ### delete an item based on the productId from users cart
