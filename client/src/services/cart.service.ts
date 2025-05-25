@@ -11,32 +11,32 @@ type CartItem = {
 	quantity: number;
 };
 
-export const handleRemoveFromCart = async (
-	sessionId: string,
-	productId: number,
-	fetchCartDetails: () => void
-) => {
+// export const is used over export default for two main reasons:
+// 1. you can import multiple functions from the same file import { ex, ex,} from ../
+// 2. you can NOT rename the function
+export const handleRemoveFromCart = async (sessionId: string, productId: number, fetchCartDetails: () => void) => {
+
+	// good practice to put api calls in try catch blocks
 	try {
-		const response = await fetch(
-			`http://localhost:5255/user/${sessionId}/cart/${productId}`,
+		const response = await fetch(`http://localhost:5255/user/${sessionId}/cart/${productId}`,
 			{
 				method: "DELETE",
 				headers: {
 					"Content-Type": "application/json",
 				},
-			}
-		);
-
-		if (!response.ok) {
-			throw new Error("Failed to remove product from cart");
-		}
-		toast.success("Removed from cart");
-		fetchCartDetails();
+			});
+			
+			if (!response.ok) {
+				// throw actually stops the program
+				throw new Error("FAILED, remove product from cart.")
+			} else {
+				toast.success("Removed from cart");
+				fetchCartDetails();
+			};
 	} catch (error) {
-		toast.error("Failed to remove product from cart");
-		console.error("Failed to remove product from cart:", error);
+		console.error("Failed to remove product from cart", error);
 	}
-};
+}
 
 export const handleUpdateQuantity = async (
     sessionId: string,
