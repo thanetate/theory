@@ -10,6 +10,7 @@ import { useAtom, useSetAtom } from "jotai";
 import { createClient, Session } from "@supabase/supabase-js";
 import { Auth } from "@supabase/auth-ui-react";
 import { ThemeSupa } from "@supabase/auth-ui-shared";
+import emailjs from '@emailjs/browser';
 
 const supabase = createClient(
 	import.meta.env.VITE_SUPABASE_URL,
@@ -36,6 +37,12 @@ export function AccountPage() {
 			size: string;
 		}[]
 	>([]);
+
+	type StripeLineItem = {
+		id: string;
+		description: string;
+		quantity: number;
+	  };
 
 	useEffect(() => {
 		supabase.auth.getSession().then(({ data: { session } }) => {
@@ -101,7 +108,10 @@ export function AccountPage() {
 				const metaData = metaDataResponse.metadata;
 
 				for (const item of stripeOrderData) {
-					const size = metaData[item.description];
+					const size = metaData[item.id];
+					console.log('ITEM DETAILS;:', item);
+					console.log("ITEM ID", item.id);
+					console.log('META DATA', metaData);
 
 					await handleAddToOrders(
 						item.id,
@@ -115,9 +125,25 @@ export function AccountPage() {
 						shippingDetails.state,
 						size
 					);
+					const stripeOrderData: StripeLineItem[] = response.data;
+					const templateParams = {
+						to_name: shippingDetails.name || "NEW ORDER INCOMING",
+						message: `Thank you for your order! Here's a summary:\n\n${stripeOrderData
+							.map(
+								(item: StripeLineItem) =>
+									`${item.description} (x${item.quantity}) - Size: ${metaData}}`
+							)
+							.join("\n")}\n\nShipping to: ${shippingDetails.line1}, ${shippingDetails.city}, ${shippingDetails.state}, ${shippingDetails.postalCode}`,
+						user_email: shippingDetails.email || "",
+					};
+		
+					await emailjs.send('service_kfoq50k', 'template_swwqw2j', templateParams, {
+						publicKey: 'HxCpBxarx2sDssveP',
+					});
+		
 					await handleDeleteCart();
 					clearStripeSesssionId();
-					window.location.reload();
+					// window.location.reload();
 				}
 			}
 		} catch (error) {
