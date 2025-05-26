@@ -225,7 +225,11 @@ public static class UserEndpoints
         });
 
         // POST create an order
-        app.MapPost("/user/{id:guid}/add-to-orders", async (Guid id, OrdersItem ordersItem, Supabase.Client client) =>
+        app.MapPost("/user/{id:guid}/add-to-orders", async (
+            Guid id,
+            List<OrdersItem> ordersItems,
+            Supabase.Client client
+        ) =>
         {
             var response = await client
                 .From<User>()
@@ -239,13 +243,46 @@ public static class UserEndpoints
                 return Results.NotFound($"User with id {id} not found");
             }
 
-            var updatedOrder = user.Orders ?? new List<OrdersItem>();
-            updatedOrder.Add(ordersItem);
-            user.Orders = updatedOrder;
-            await client.From<User>().Update(user);
+            var updatedOrders = user.Orders ?? new List<OrdersItem>();
+            updatedOrders.AddRange(ordersItems);
 
-            return Results.Ok(new { Message = "Items added to orders", Order = updatedOrder });
+            await client.From<User>().Update(new User
+            {
+                Id = user.Id,
+                Orders = updatedOrders
+            });
+
+            return Results.Ok(new { Message = "Items added to orders", Order = updatedOrders });
         });
+
+        // app.MapPost("/user/{id:guid}/add-to-orders", async (Guid id, OrdersItem ordersItem, Supabase.Client client) =>
+        // {
+        //     var response = await client
+        //         .From<User>()
+        //         .Where(p => p.Id == id)
+        //         .Get();
+
+        //     var user = response.Models.FirstOrDefault();
+
+        //     if (user == null)
+        //     {
+        //         return Results.NotFound($"User with id {id} not found");
+        //     }
+
+        //     var updatedOrder = user.Orders ?? new List<OrdersItem>();
+        //     updatedOrder.Add(ordersItem);
+        //     // user.Orders = updatedOrder;
+        //     // await client.From<User>().Update(user);
+        //     await client.From<User>().Update(new User
+        //     {
+        //         Id = user.Id,
+        //         Orders = updatedOrder
+        //     });
+
+        //     return Results.Ok(new { Message = "Items added to orders", Order = updatedOrder });
+        // });
+
+
 
     }
 }

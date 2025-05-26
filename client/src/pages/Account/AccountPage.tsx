@@ -38,6 +38,19 @@ export function AccountPage() {
 		}[]
 	>([]);
 
+	type OrdersItem = {
+		id: string;
+		description: string;
+		quantity: number;
+		city: string;
+		country: string;
+		line1: string;
+		line2: string;
+		postalCode: string;
+		state: string;
+		size: string;
+	};
+
 	type StripeLineItem = {
 		id: string;
 		description: string;
@@ -100,54 +113,58 @@ export function AccountPage() {
 			const response = await axios.get("http://localhost:5255/get-line-items", {
 				params: { session_id: sessionId },
 			});
-
-			const stripeOrderData = response.data;
-			if (stripeOrderData) {
+	
+			const stripeOrderData: StripeLineItem[] = response.data;
+	
+			if (stripeOrderData.length > 0) {
 				const shippingDetails = await handleGetShippingAddress(sessionId);
 				const metaDataResponse = await handleGetMetaData(sessionId);
 				const metaData = metaDataResponse.metadata;
+				//todo: change this
+				const size = Object.values(metaData)[0] as string;
+	
+				const orders: OrdersItem[] = stripeOrderData.map((item) => ({
+					id: item.id,
+					description: item.description,
+					quantity: item.quantity,
+					city: shippingDetails.city,
+					country: shippingDetails.country,
+					line1: shippingDetails.line1,
+					line2: shippingDetails.line2,
+					postalCode: shippingDetails.postalCode,
+					state: shippingDetails.state,
+					size: size,
+				}));
 
-				for (const item of stripeOrderData) {
-					const size = Object.values(metaData)[0] as string;
-
-					await handleAddToOrders(
-						item.id,
-						item.description,
-						item.quantity,
-						shippingDetails.city,
-						shippingDetails.country,
-						shippingDetails.line1,
-						shippingDetails.line2,
-						shippingDetails.postalCode,
-						shippingDetails.state,
-						size
-					);
-					const stripeOrderData: StripeLineItem[] = response.data;
-					const templateParams = {
-						to_name: shippingDetails.name || "NEW ORDER INCOMING",
-						message: `Thank you for your order! Here's a summary:\n\n${stripeOrderData
-							.map(
-								(item: StripeLineItem) =>
-									`${item.description} (x${item.quantity}) - Size: ${size}`
-							)
-							.join("\n")}\n\nShipping to: ${shippingDetails.line1}, ${shippingDetails.city}, ${shippingDetails.state}, ${shippingDetails.postalCode}`,
-						user_email: shippingDetails.email || "",
-					};
-		
-					await emailjs.send('!!service_kfoq50k', 'template_swwqw2j', templateParams, {
-						publicKey: 'HxCpBxarx2sDssveP',
-					});
-		
-					await handleDeleteCart();
-					clearStripeSesssionId();
-					window.location.reload();
-				}
+				await handleAddToOrders(orders);
+	
+				const templateParams = {
+					to_name: shippingDetails.name || "NEW ORDER INCOMING",
+					message: `Thank you for your order! Here's a summary:\n\n${orders
+						.map(
+							(item) =>
+								`${item.description} (x${item.quantity}) - Size: ${size}`
+						)
+						.join("\n")}\n\nShipping to: ${shippingDetails.line1}, ${shippingDetails.city}, ${shippingDetails.state}, ${shippingDetails.postalCode}`,
+					user_email: shippingDetails.email || "",
+				};
+	
+				await emailjs.send(
+					"!!service_kfoq50k",
+					"template_swwqw2j",
+					templateParams,
+					{ publicKey: "HxCpBxarx2sDssveP" }
+				);
+	
+				await handleDeleteCart();
+				clearStripeSesssionId();
+				window.location.reload();
 			}
 		} catch (error) {
 			console.error("Error fetching data from Stripe", error);
 		}
 	};
-
+	
 	const handleGetShippingAddress = async (sessionId: string | null) => {
 		try {
 			const response = await axios.get(
@@ -186,40 +203,19 @@ export function AccountPage() {
 	};
 
 	const handleAddToOrders = async (
-		id: string,
-		description: string,
-		quantity: number,
-		city: string,
-		country: string,
-		line1: string,
-		line2: string,
-		postalCode: string,
-		state: string,
-		size: string
-	) => {
+		orders: OrdersItem[]
+	  ) => {
 		if (!sessionId) return;
 		try {
-			const response = await axios.post(
-				`http://localhost:5255/user/${sessionId}/add-to-orders`,
-				{
-					id: id,
-					description: description,
-					quantity: quantity,
-					city: city,
-					country: country,
-					line1: line1,
-					line2: line2,
-					postalCode: postalCode,
-					state: state,
-					size: size,
-				}
-			);
-			const orderData = response.data;
-			console.log("Order Data: ", orderData);
+		  await axios.post(
+			`http://localhost:5255/user/${sessionId}/add-to-orders`,
+			orders
+		  );
 		} catch (error) {
-			console.error("Error posting orders", error);
+		  console.error("Error posting orders", error);
 		}
-	};
+	  };
+	  
 
 	const handleFetchOrders = async () => {
 		if (!sessionId) return;
@@ -229,7 +225,6 @@ export function AccountPage() {
 			);
 
 			const ordersData = response.data;
-			console.log("Order Data: ", ordersData);
 			setOrders(ordersData);
 		} catch (error) {
 			console.error("Error fetching orders", error);
@@ -294,7 +289,7 @@ export function AccountPage() {
 							<h1>Orders : </h1>
 							{orders.map((item, index) => (
 								<div key={index} className="order-item">
-									<div className="order-item-name">'{item.description}' x{item.quantity}</div>
+									<div className="order-item-name">'{item.description} -{item.size}' x{item.quantity}</div>
 								</div>
 							))}
 						</div>
