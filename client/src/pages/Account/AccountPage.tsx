@@ -271,16 +271,7 @@ export function AccountPage() {
 							<h1>Orders : </h1>
 							{orders.map((item, index) => (
 								<div key={index} className="order-item">
-									<div className="order-item-name">{item.description}</div>
-									<div className="order-item-quantity">
-										{item.quantity}, {item.size}
-									</div>
-									<div className="order-shipping">
-										<div className="order-shipping-address">
-											{item.line1} {item.line2}, {item.city}, {item.state},{" "}
-											{item.postalCode}, {item.country}
-										</div>
-									</div>
+									<div className="order-item-name">'{item.description}' x{item.quantity}</div>
 								</div>
 							))}
 						</div>
