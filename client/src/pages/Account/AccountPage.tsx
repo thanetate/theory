@@ -108,10 +108,7 @@ export function AccountPage() {
 				const metaData = metaDataResponse.metadata;
 
 				for (const item of stripeOrderData) {
-					const size = metaData[item.id];
-					console.log('ITEM DETAILS;:', item);
-					console.log("ITEM ID", item.id);
-					console.log('META DATA', metaData);
+					const size = Object.values(metaData)[0] as string;
 
 					await handleAddToOrders(
 						item.id,
@@ -131,19 +128,19 @@ export function AccountPage() {
 						message: `Thank you for your order! Here's a summary:\n\n${stripeOrderData
 							.map(
 								(item: StripeLineItem) =>
-									`${item.description} (x${item.quantity}) - Size: ${metaData}}`
+									`${item.description} (x${item.quantity}) - Size: ${size}`
 							)
 							.join("\n")}\n\nShipping to: ${shippingDetails.line1}, ${shippingDetails.city}, ${shippingDetails.state}, ${shippingDetails.postalCode}`,
 						user_email: shippingDetails.email || "",
 					};
 		
-					await emailjs.send('service_kfoq50k', 'template_swwqw2j', templateParams, {
+					await emailjs.send('!!service_kfoq50k', 'template_swwqw2j', templateParams, {
 						publicKey: 'HxCpBxarx2sDssveP',
 					});
 		
 					await handleDeleteCart();
 					clearStripeSesssionId();
-					// window.location.reload();
+					window.location.reload();
 				}
 			}
 		} catch (error) {
