@@ -208,7 +208,7 @@ export function AccountPage() {
 		if (!sessionId) return;
 		try {
 		  await axios.post(
-			`https://theory-web.azurewebsites.net/user/${sessionId}/add-to-orders`,
+			`https://theory-webapp.azurewebsites.net/user/${sessionId}/add-to-orders`,
 			orders
 		  );
 		} catch (error) {

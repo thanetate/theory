@@ -18,7 +18,7 @@ export const handleRemoveFromCart = async (sessionId: string, productId: number,
 
 	// good practice to put api calls in try catch blocks
 	try {
-		const response = await fetch(`https://theory-web.azurewebsites.net/user/${sessionId}/cart/${productId}`,
+		const response = await fetch(`https://theory-webapp.azurewebsites.net/user/${sessionId}/cart/${productId}`,
 			{
 				method: "DELETE",
 				headers: {
@@ -46,7 +46,7 @@ export const handleUpdateQuantity = async (
 ) => {
 	try {
 		const response = await fetch(
-			`https://theory-web.azurewebsites.net/user/${sessionId}/cart/${productId}/quantity/${newQuantity}`,
+			`https://theory-webapp.azurewebsites.net/user/${sessionId}/cart/${productId}/quantity/${newQuantity}`,
 			{
 				method: "PATCH",
 				headers: {
@@ -71,7 +71,7 @@ export const handleCheckout = async (event: React.FormEvent, cartDetails: CartIt
 	event.preventDefault();
 	try {
 		const response = await axios.post(
-			"https://theory-web.azurewebsites.net/create-checkout-session",
+			"https://theory-webapp.azurewebsites.net/create-checkout-session",
 			{ cart: cartDetails },
 			{
 				headers: {
