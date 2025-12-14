@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const handleStripeGetOrders = async (sessionId: string | null, clearStripeSesssionId: () => void, reloadPage: () => void) => {
     try {
-        const response = await axios.get("http://localhost:5255/get-line-items", {
+        const response = await axios.get("https://theory-web.azurewebsites.net/get-line-items", {
             params: { session_id: sessionId },
         });
 
@@ -47,7 +47,7 @@ export const handleStripeGetOrders = async (sessionId: string | null, clearStrip
 export const handleGetShippingAddress = async (sessionId: string | null) => {
 		try {
 			const response = await axios.get(
-				"http://localhost:5255/get-shipping-details",
+				"https://theory-web.azurewebsites.net/get-shipping-details",
 				{
 					params: { session_id: sessionId },
 				}
@@ -67,7 +67,7 @@ export const handleGetShippingAddress = async (sessionId: string | null) => {
 const handleGetMetaData = async (sessionId: string | null) => {
     try {
         const response = await axios.get(
-            "http://localhost:5255/get-checkout-session-metadata",
+            "https://theory-web.azurewebsites.net/get-checkout-session-metadata",
             {
                 params: { session_id: sessionId },
             }
@@ -98,7 +98,7 @@ const handleAddToOrders = async (
     if (!sessionId) return;
     try {
         const response = await axios.post(
-            `http://localhost:5255/user/${sessionId}/add-to-orders`,
+            `https://theory-web.azurewebsites.net/user/${sessionId}/add-to-orders`,
             {
                 id: id,
                 description: description,
@@ -126,7 +126,7 @@ const handleDeleteCart = async (sessionId: string) => {
     }
     try {
         const response = await axios.delete(
-            `http://localhost:5255/user/${sessionId}/cart`
+            `https://theory-web.azurewebsites.net/user/${sessionId}/cart`
         );
 
         const cartData = response.data;
@@ -144,7 +144,7 @@ export const handleFetchOrders = async (sessionId: string) => {
     if (!sessionId) return;
     try {
         const response = await axios.get(
-            `http://localhost:5255/user/${sessionId}/orders`
+            `https://theory-web.azurewebsites.net/user/${sessionId}/orders`
         );
 
         const ordersData = response.data;

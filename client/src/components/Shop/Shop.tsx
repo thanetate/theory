@@ -4,7 +4,7 @@ import "./Shop.css";
 const shopCards = [
 	{
 		image: "./CRIMPS.jpg",
-		title: "Summer 2025",
+		title: "Summer 2026",
 	},
 	{
 		image: "./Carousel1.png",

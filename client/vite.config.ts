@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:5255',
+        target: 'https://theory-web.azurewebsites.net',
         changeOrigin: true,
         secure: false,
       },

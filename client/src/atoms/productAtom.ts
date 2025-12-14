@@ -19,7 +19,7 @@ export const fetchProductsAtom = atom(
 	async (_, set) => {
 		console.log("fetchProducts called");
 		try {
-			const response = await axios.get(`http://localhost:5255/products`);
+			const response = await axios.get(`https://theory-web.azurewebsites.net/products`);
 			const productData = response.data;
 			set(productAtom, productData);
 			console.log("All Products Data (Atom):", productData);
@@ -35,7 +35,7 @@ export const fetchProductById = atom(
 	async (_, set, { productId }) => {
 		try {
 			const response = await axios.get(
-				`http://localhost:5255/products/${productId}`
+				`https://theory-web.azurewebsites.net/products/${productId}`
 			);
 			const productData = response.data;
 			set(singleProductAtom, productData);

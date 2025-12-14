@@ -22,7 +22,7 @@ export const fetchUserAtom = atom(
             return;
         }
         try {
-            const response = await axios.get(`http://localhost:5255/user/${sessionId}`, {
+            const response = await axios.get(`https://theory-web.azurewebsites.net/user/${sessionId}`, {
                 headers: {
                     Accept: "application/json",
                 },
