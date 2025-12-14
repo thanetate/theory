@@ -59,6 +59,7 @@ export function Footer() {
 				<h2>
 					Website Designed & Created by <span>Thane Tate</span>
 				</h2>
+				<h2>Help us improve — report issues <a href="https://github.com/thanetate/Theory-v2/issues">here</a>.</h2>
 				<div className="icons-container">
 					<a href="https://github.com/thanetate">
 						<img src="/icons/github.svg" alt="Theory Github Icon" />
@@ -69,7 +70,7 @@ export function Footer() {
 				</div>
 			</div>
 			<div className="copyright-container">
-				<h2>Copyright © 2024 - All rights reserved by Theory Climbing</h2>
+				<h2>Copyright © 2025 - All rights reserved by Theory Climbing</h2>
 			</div>
 		</>
 	);

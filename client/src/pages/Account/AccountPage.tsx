@@ -2,31 +2,27 @@ import "./AccountPage.css";
 import { Footer } from "../../components/Footer/Footer";
 import { Header } from "../../components/Header/Header";
 import { PromoBar } from "../../components/PromoBar/PromoBar";
+import { sessionIdAtom } from "../../atoms/userAtom";
 import { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
+import axios from "axios";
+import { useAtom, useSetAtom } from "jotai";
 import { createClient, Session } from "@supabase/supabase-js";
 import { Auth } from "@supabase/auth-ui-react";
 import { ThemeSupa } from "@supabase/auth-ui-shared";
-import { useAtom, useSetAtom } from "jotai";
-import { sessionIdAtom } from "../../atoms/userAtom";
-import { useSearchParams } from "react-router-dom";
-import axios from "axios";
+import emailjs from '@emailjs/browser';
 
 const supabase = createClient(
 	import.meta.env.VITE_SUPABASE_URL,
-	import.meta.env.VITE_SUPABASE_KEY	
+	import.meta.env.VITE_SUPABASE_KEY
 );
 
 export function AccountPage() {
-	// supabase session Ids
 	const [session, setSession] = useState<Session | null>(null);
 	const [sessionId, setSessionId] = useAtom(sessionIdAtom);
 	const resetSessionId = useSetAtom(sessionIdAtom);
-
-	// stripe session Ids
 	const [searchParams] = useSearchParams();
 	const StripeSessionId = searchParams.get("session_id");
-
-	// orders state
 	const [orders, setOrders] = useState<
 		{
 			id: string;
@@ -42,7 +38,25 @@ export function AccountPage() {
 		}[]
 	>([]);
 
-	// supabase hooks
+	type OrdersItem = {
+		id: string;
+		description: string;
+		quantity: number;
+		city: string;
+		country: string;
+		line1: string;
+		line2: string;
+		postalCode: string;
+		state: string;
+		size: string;
+	};
+
+	type StripeLineItem = {
+		id: string;
+		description: string;
+		quantity: number;
+	  };
+
 	useEffect(() => {
 		supabase.auth.getSession().then(({ data: { session } }) => {
 			setSession(session);
@@ -67,7 +81,6 @@ export function AccountPage() {
 		}
 	}, [sessionId]);
 
-	// stripe hooks
 	useEffect(() => {
 		if (StripeSessionId) {
 			handleStripeGetOrders(StripeSessionId);
@@ -79,17 +92,15 @@ export function AccountPage() {
 		handleFetchOrders();
 	}, [sessionId]);
 
-	// logout user
 	const handleLogout = async () => {
 		const { error } = await supabase.auth.signOut();
 		if (error) {
-			console.log("Error logging out:", error.message);
+			console.error("Error logging out:", error.message);
 		}
 		setSession(null);
 		resetSessionId(null);
 	};
 
-	// clear stripe session id from url
 	const clearStripeSesssionId = () => {
 		const searchParams = new URLSearchParams(window.location.search);
 		searchParams.delete("session_id");
@@ -97,56 +108,67 @@ export function AccountPage() {
 		window.history.replaceState({}, "", newUrl);
 	};
 
-	// gets order from stripe
 	const handleStripeGetOrders = async (sessionId: string | null) => {
 		try {
-			const response = await axios.get("https://theory-webapp.azurewebsites.net/get-line-items", {
+			const response = await axios.get("http://localhost:5255/get-line-items", {
 				params: { session_id: sessionId },
 			});
-
-			const stripeOrderData = response.data;
-			if (stripeOrderData) {
-				// Get shipping details
+	
+			const stripeOrderData: StripeLineItem[] = response.data;
+	
+			if (stripeOrderData.length > 0) {
 				const shippingDetails = await handleGetShippingAddress(sessionId);
-				// Get metadata
 				const metaDataResponse = await handleGetMetaData(sessionId);
 				const metaData = metaDataResponse.metadata;
-				console.log("Meta Data: ", metaData);
+				//todo: change this
+				const size = Object.values(metaData)[0] as string;
+	
+				const orders: OrdersItem[] = stripeOrderData.map((item) => ({
+					id: item.id,
+					description: item.description,
+					quantity: item.quantity,
+					city: shippingDetails.city,
+					country: shippingDetails.country,
+					line1: shippingDetails.line1,
+					line2: shippingDetails.line2,
+					postalCode: shippingDetails.postalCode,
+					state: shippingDetails.state,
+					size: size,
+				}));
 
-				for (const item of stripeOrderData) {
-
-					const size = metaData[item.description];
-					console.log("Item Desc:", item.description);
-                	console.log("Stripe Item Size:", size);
-
-					await handleAddToOrders(
-						item.id,
-						item.description,
-						item.quantity,
-						shippingDetails.city,
-						shippingDetails.country,
-						shippingDetails.line1,
-						shippingDetails.line2,
-						shippingDetails.postalCode,
-						shippingDetails.state,
-						size
-					);
-					await handleDeleteCart();
-					clearStripeSesssionId();
-					window.location.reload();
-					console.log("SESSION ID", sessionId);
-				}
+				await handleAddToOrders(orders);
+	
+				const templateParams = {
+					to_name: shippingDetails.name || "NEW ORDER INCOMING",
+					message: `Thank you for your order! Here's a summary:\n\n${orders
+						.map(
+							(item) =>
+								`${item.description} (x${item.quantity}) - Size: ${size}`
+						)
+						.join("\n")}\n\nShipping to: ${shippingDetails.line1}, ${shippingDetails.city}, ${shippingDetails.state}, ${shippingDetails.postalCode}`,
+					user_email: shippingDetails.email || "",
+				};
+	
+				await emailjs.send(
+					"!!service_kfoq50k",
+					"template_swwqw2j",
+					templateParams,
+					{ publicKey: "HxCpBxarx2sDssveP" }
+				);
+	
+				await handleDeleteCart();
+				clearStripeSesssionId();
+				window.location.reload();
 			}
 		} catch (error) {
 			console.error("Error fetching data from Stripe", error);
 		}
 	};
-
-	// get shipping address from stripe
+	
 	const handleGetShippingAddress = async (sessionId: string | null) => {
 		try {
 			const response = await axios.get(
-				"https://theory-webapp.azurewebsites.net/get-shipping-details",
+				"http://localhost:5255/get-shipping-details",
 				{
 					params: { session_id: sessionId },
 				}
@@ -162,11 +184,10 @@ export function AccountPage() {
 		return null;
 	};
 
-	//get meta data from stripe
 	const handleGetMetaData = async (sessionId: string | null) => {
 		try {
 			const response = await axios.get(
-				"https://theory-webapp.azurewebsites.net/get-checkout-session-metadata",
+				"http://localhost:5255/get-checkout-session-metadata",
 				{
 					params: { session_id: sessionId },
 				}
@@ -181,60 +202,35 @@ export function AccountPage() {
 		}
 	};
 
-	// add order to user
 	const handleAddToOrders = async (
-		id: string,
-		description: string,
-		quantity: number,
-		city: string,
-		country: string,
-		line1: string,
-		line2: string,
-		postalCode: string,
-		state: string,
-		size: string
-	) => {
+		orders: OrdersItem[]
+	  ) => {
 		if (!sessionId) return;
 		try {
-			const response = await axios.post(
-				`https://theory-webapp.azurewebsites.net/user/${sessionId}/add-to-orders`,
-				{
-					id: id,
-					description: description,
-					quantity: quantity,
-					city: city,
-					country: country,
-					line1: line1,
-					line2: line2,
-					postalCode: postalCode,
-					state: state,
-					size: size,
-				}
-			);
-			const orderData = response.data;
-			console.log("Order Data: ", orderData);
+		  await axios.post(
+			`http://localhost:5255/user/${sessionId}/add-to-orders`,
+			orders
+		  );
 		} catch (error) {
-			console.error("Error posting orders", error);
+		  console.error("Error posting orders", error);
 		}
-	};
+	  };
+	  
 
-	// get orders from user
 	const handleFetchOrders = async () => {
 		if (!sessionId) return;
 		try {
 			const response = await axios.get(
-				`https://theory-webapp.azurewebsites.net/user/${sessionId}/orders`
+				`http://localhost:5255/user/${sessionId}/orders`
 			);
 
 			const ordersData = response.data;
-			console.log("Order Data: ", ordersData);
 			setOrders(ordersData);
 		} catch (error) {
 			console.error("Error fetching orders", error);
 		}
 	};
 
-	// delete all items from cart
 	const handleDeleteCart = async () => {
 		if (!sessionId) {
 			console.error("Session Id not found.");
@@ -242,7 +238,7 @@ export function AccountPage() {
 		}
 		try {
 			const response = await axios.delete(
-				`https://theory-webapp.azurewebsites.net/user/${sessionId}/cart`
+				`http://localhost:5255/user/${sessionId}/cart`
 			);
 
 			const cartData = response.data;
@@ -263,7 +259,19 @@ export function AccountPage() {
 				<Header />
 				<div className="auth-container">
 					<div className="failure-message">Log In Required</div>
-					<Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} />
+					<Auth
+						supabaseClient={supabase}
+						appearance={{ theme: ThemeSupa }}
+						providers={["google"]}
+						// queryParams={{
+						// 	access_type: "offline",
+						// 	prompt: "consent",
+						// 	hd: "domain.com",
+						// }}
+						// providerScopes={{
+						// 	google: "https://www.googleapis.com/auth/calendar.readonly",
+						// }}
+					/>
 				</div>
 				<Footer />
 			</>
@@ -274,12 +282,6 @@ export function AccountPage() {
 				<PromoBar />
 				<Header />
 				<div className="account-container">
-					{/* <div className="success-message">
-						Log In Success UID: {session.user?.id}
-					</div>
-					<div className="success-message">
-						Stripe Order Success, UID: {StripeSessionId}
-					</div> */}
 					<h1 className="welcome-message">Welcome, {session.user?.email}</h1>
 
 					{orders.length > 0 ? (
@@ -287,16 +289,7 @@ export function AccountPage() {
 							<h1>Orders : </h1>
 							{orders.map((item, index) => (
 								<div key={index} className="order-item">
-									<div className="order-item-name">{item.description}</div>
-									<div className="order-item-quantity">
-										{item.quantity}, {item.size}
-									</div>
-									<div className="order-shipping">
-										<div className="order-shipping-address">
-											{item.line1} {item.line2}, {item.city}, {item.state},{" "}
-											{item.postalCode}, {item.country}
-										</div>
-									</div>
+									<div className="order-item-name">'{item.description} -{item.size}' x{item.quantity}</div>
 								</div>
 							))}
 						</div>

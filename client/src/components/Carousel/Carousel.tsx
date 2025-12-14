@@ -3,11 +3,10 @@ import { useRef } from "react";
 import "./Carousel.css";
 
 const images = [
+	"./Cropped_CRIMP.png",
 	"./Carousel2.png",
-	"./Carousel6.png",
-	"./Carousel4.png",
-	"./Carousel1.png",
-	"./Carousel5.png",
+	// "./Carousel6.png",
+	// "./Carousel4.png",
 ];
 
 export function Carousel() {

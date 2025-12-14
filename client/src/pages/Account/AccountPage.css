@@ -13,6 +13,7 @@
 }
 .welcome-message {
 	margin-top: 15px;
+	margin-bottom: 30px;
 }
 .account-container {
 	margin: auto;
@@ -39,15 +40,14 @@
 .orders-container {
 	margin-top: 15px;
 }
+.orders-container h1 {
+	font-size: medium;
+}
 .order-item {
 	margin-top: 10px;
 }
 .order-item-name {
 	margin-bottom: 5px;
-}
-.order-shipping-address {
-	margin-top: 10px;
-	font-size: 14px;
 }
 @media (max-width: 800px) {
 	.auth-container {
