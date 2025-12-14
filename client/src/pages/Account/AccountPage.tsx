@@ -110,7 +110,7 @@ export function AccountPage() {
 
 	const handleStripeGetOrders = async (sessionId: string | null) => {
 		try {
-			const response = await axios.get("https://theory-web.azurewebsites.net/get-line-items", {
+			const response = await axios.get("https://theory-webapp.azurewebsites.net/get-line-items", {
 				params: { session_id: sessionId },
 			});
 	
@@ -168,7 +168,7 @@ export function AccountPage() {
 	const handleGetShippingAddress = async (sessionId: string | null) => {
 		try {
 			const response = await axios.get(
-				"https://theory-web.azurewebsites.net/get-shipping-details",
+				"https://theory-webapp.azurewebsites.net/get-shipping-details",
 				{
 					params: { session_id: sessionId },
 				}
@@ -187,7 +187,7 @@ export function AccountPage() {
 	const handleGetMetaData = async (sessionId: string | null) => {
 		try {
 			const response = await axios.get(
-				"https://theory-web.azurewebsites.net/get-checkout-session-metadata",
+				"https://theory-webapp.azurewebsites.net/get-checkout-session-metadata",
 				{
 					params: { session_id: sessionId },
 				}
@@ -221,7 +221,7 @@ export function AccountPage() {
 		if (!sessionId) return;
 		try {
 			const response = await axios.get(
-				`https://theory-web.azurewebsites.net/user/${sessionId}/orders`
+				`https://theory-webapp.azurewebsites.net/user/${sessionId}/orders`
 			);
 
 			const ordersData = response.data;
@@ -238,7 +238,7 @@ export function AccountPage() {
 		}
 		try {
 			const response = await axios.delete(
-				`https://theory-web.azurewebsites.net/user/${sessionId}/cart`
+				`https://theory-webapp.azurewebsites.net/user/${sessionId}/cart`
 			);
 
 			const cartData = response.data;

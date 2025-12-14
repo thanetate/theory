@@ -1,0 +1,40 @@
+Deployment Documentation
+
+Client Deployment ~
+The client application is deployed on Vercel. The deployment is configured to automatically update whenever changes are pushed to the GitHub repository.
+
+Steps to Deploy the Client Application
+1. Create a Vercel Account
+2. Connect GitHub Repository
+3. Configure Build Settings 
+    - test using "npm run build"
+4. Ensure the following settings are correct
+5. Set Environment Variables
+6. Deploy
+
+Server Deployment ~
+The server application is deployed using github actions and azure. The deployment is configured to automatically update whenever changes are pushed to the GitHub repository.
+
+Steps to Deploy the Server Application
+1. Remove Swagger UI if statement
+2. On Github, create an action (Create a workflow yourself)
+    - A YAML file (YAML stands for YAML Ain't Markup Language) is a configuration file used to define the settings and structure for various tools and applications.
+    
+    Key Uses of YAML Files:
+    1. Defining CI/CD Pipelines (e.g., GitHub Actions):
+    2. Setting up the development environment.
+    3. Installing dependencies.
+    4. Running tests.
+    5. Building the project.
+    6. Deploying the application.
+    7. Configuration Files for Applications or Tools:
+
+    * If we had multiple projects within a single solution we would use a .sln file.
+    * If we had a microservice architecture or wanted consistency with development, testing and production we would use a docker image. 
+3. Now we need to deploy our app in the YAML file using Azure Publish Profile
+4. Setup Azure App Service
+    -resource group: theory-webapp
+    -name: theory-webapp
+    -region: central canada 
+    * make sure basic authentication is enabled or you cannot download publish profile
+    * make sure environment variables are stored in Azure
