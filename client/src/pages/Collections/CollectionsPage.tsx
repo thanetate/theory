@@ -23,10 +23,10 @@ export function CollectionsPage() {
 	const navigate = useNavigate();
 
 	const handleProductClick = (productId: number) => {
-		navigate(`/collections/${productId}`); //change this later
+		navigate(`/collections/${productId}`);
 	};
 
-	if(loading) {
+	if (loading) {
 		return (
 			<>
 				<PromoBar />
@@ -34,7 +34,7 @@ export function CollectionsPage() {
 				<Loading />
 				<Footer />
 			</>
-		)
+		);
 	}
 	return (
 		<>

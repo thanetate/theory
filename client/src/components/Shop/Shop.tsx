@@ -3,21 +3,21 @@ import "./Shop.css";
 
 const shopCards = [
 	{
-		image: "./Carousel1.png",
-		title: "TITLE",
-	},
-	{
-		image: "./Carousel2.png",
-		title: "TITLE",
+		image: "./CRIMPS.jpg",
+		title: "Summer 2025",
 	},
 	{
 		image: "./Carousel1.png",
-		title: "TITLE",
+		title: "All Drops",
 	},
-	{
-		image: "./Carousel2.png",
-		title: "TITLE",
-	},
+	// {
+	// 	image: "./Carousel1.png",
+	// 	title: "TITLE",
+	// },
+	// {
+	// 	image: "./Carousel2.png",
+	// 	title: "TITLE",
+	// },
 ];
 
 export function Shop() {

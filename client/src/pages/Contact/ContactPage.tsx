@@ -1,7 +1,7 @@
+import "./ContactPage.css";
 import { Footer } from "../../components/Footer/Footer";
 import { Header } from "../../components/Header/Header";
 import { PromoBar } from "../../components/PromoBar/PromoBar";
-import "./ContactPage.css";
 
 export function ContactPage() {
 	return (
