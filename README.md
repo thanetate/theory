@@ -6,7 +6,7 @@ As an avid rock climber with over 7 years of experience, some friends and I want
 
 This is version 2.0 of the website. Originally built with Next.js, I wanted to challenge myself by rebuilding it with a more refined tech stack and a fresh approach.  
 
-Check it out here: [theoryclimbing.com](https://www.theoryclimbing.com/)
+Check it out here: [theory.thanetate.dev](https://www.theory.thanetate.dev/)
 
 ## Tech Stack
 - React
