@@ -1,23 +1,13 @@
 ## Theory Climbing
 
-This website was built to sell climbing clothing and merchandise. 
+Theory is an e-commerce store for selling custom climbing apparel.
 
-As an avid rock climber with over 7 years of experience, some friends and I wanted to start creating climbing merchandise, including clothes and posters. To bring that idea to life, I built this website. Theory Climbing combines my passion for climbing with my skills in web development. The site was built using a modern tech stack, featuring Supabase for secure authentication and the Stripe API for a seamless, stateless checkout experience.  
-
-This is version 2.0 of the website. Originally built with Next.js, I wanted to challenge myself by rebuilding it with a more refined tech stack and a fresh approach.  
+My friend and I have been rock climbing for seven years and have always wanted to start our own climbing brand. I took the opportunity to build a site where we could sell our apparel, featuring a secure checkout experience using the Stripe API.
 
 Check it out here: [theory.thanetate.dev](https://www.theory.thanetate.dev/)
 
-## Tech Stack
-- React
-- TypeScript
-- ASP.NET Core
-- C#
-- PostgreSQL
-- Azure
-- Supabase
-- Jotai
-- Vercel
-
 ## Demo
 https://github.com/user-attachments/assets/cf8dff1f-6921-4818-bd40-9f2c2829f92a
+<img width="3360" height="1822" alt="image" src="https://github.com/user-attachments/assets/d4cd255d-a834-4272-af09-11334f434ffb" />
+<img width="3360" height="1830" alt="image" src="https://github.com/user-attachments/assets/fef498a7-91e8-4af2-90be-95af0c9a004e" />
+<img width="3360" height="1822" alt="image" src="https://github.com/user-attachments/assets/e159cdc7-efd5-4eae-9761-2d50131f69e5" />
