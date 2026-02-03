@@ -8,6 +8,7 @@ Check it out here: [theory.thanetate.dev](https://www.theory.thanetate.dev/)
 
 ## Demo
 https://github.com/user-attachments/assets/cf8dff1f-6921-4818-bd40-9f2c2829f92a
+
 <img width="3360" height="1822" alt="image" src="https://github.com/user-attachments/assets/d4cd255d-a834-4272-af09-11334f434ffb" />
 <img width="3360" height="1830" alt="image" src="https://github.com/user-attachments/assets/fef498a7-91e8-4af2-90be-95af0c9a004e" />
 <img width="3360" height="1822" alt="image" src="https://github.com/user-attachments/assets/e159cdc7-efd5-4eae-9761-2d50131f69e5" />
