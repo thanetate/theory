@@ -1,4 +1,4 @@
-### theory climbing
+### Theory Climbing
 
 Theory is an e-commerce store for selling custom climbing apparel.
 
