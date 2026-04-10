@@ -6,7 +6,7 @@ My friend and I have been rock climbing for seven years and have always wanted t
 
 Check it out: [theory.thanetate.dev](https://www.theory.thanetate.dev/)
 
-### demo
+### Demo
 https://github.com/user-attachments/assets/cf8dff1f-6921-4818-bd40-9f2c2829f92a
 
 <img width="3360" height="1830" alt="image" src="https://github.com/user-attachments/assets/d4cd255d-a834-4272-af09-11334f434ffb" />
